@@ -21,7 +21,7 @@ UUID => (cluster_name, lease_expiration_time)
 2. If a cluster exists in GKE that's not in the annotations, set that to `found`
 3. Otherwise, look for a cluster that has passed its lease expiration time.
 If there is one, set that to `found`
-4. If `found` is empty, return `409` (until [#9](https://github.com/deis/k8s-claimer/issues/9) is done)
+4. If `found` is empty, return `409` (until [#9](https://github.com/deisthree/k8s-claimer/issues/9) is done)
 5. Otherwise, add/overwrite an annotation with a new UUID and the new lease expiration time.
 6. Save the annotation. If the save failed, go back to 1 for a (statically configurable)
 number of retries

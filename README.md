@@ -12,7 +12,7 @@ CLI Downloads:
 - [32 Bit Mac OS X](https://storage.googleapis.com/k8s-claimer/k8s-claimer-latest-darwin-386)
 
 `k8s-claimer` is a leasing server for a pool of Kubernetes clusters. It will be used as part of our
-[deis-workflow end-to-end test](https://github.com/deis/workflow-e2e) infrastructure.
+[deis-workflow end-to-end test](https://github.com/deisthree/workflow-e2e) infrastructure.
 
 Note that this repository is a work in progress. The code herein is under heavy development,
 provides no guarantees and should not be expected to work in any capacity.
