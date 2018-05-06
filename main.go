@@ -5,11 +5,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/deis/k8s-claimer/handlers"
-	"github.com/deis/k8s-claimer/htp"
-	"github.com/deis/k8s-claimer/k8s"
-	"github.com/deis/k8s-claimer/providers/azure"
-	"github.com/deis/k8s-claimer/providers/gke"
+	"github.com/teamhephy/k8s-claimer/handlers"
+	"github.com/teamhephy/k8s-claimer/htp"
+	"github.com/teamhephy/k8s-claimer/k8s"
+	"github.com/teamhephy/k8s-claimer/providers/azure"
+	"github.com/teamhephy/k8s-claimer/providers/gke"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 )

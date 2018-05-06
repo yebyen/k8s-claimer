@@ -1,7 +1,7 @@
 package k8s
 
 import (
-	"github.com/deis/k8s-claimer/leases"
+	"github.com/teamhephy/k8s-claimer/leases"
 	"k8s.io/client-go/pkg/api/v1"
 )
 

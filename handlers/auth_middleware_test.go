@@ -12,10 +12,10 @@ import (
 	"k8s.io/client-go/pkg/api/v1"
 
 	"github.com/arschles/assert"
-	"github.com/deis/k8s-claimer/config"
-	"github.com/deis/k8s-claimer/htp"
-	"github.com/deis/k8s-claimer/k8s"
-	"github.com/deis/k8s-claimer/providers/gke"
+	"github.com/teamhephy/k8s-claimer/config"
+	"github.com/teamhephy/k8s-claimer/htp"
+	"github.com/teamhephy/k8s-claimer/k8s"
+	"github.com/teamhephy/k8s-claimer/providers/gke"
 )
 
 func TestWithAuthValidToken(t *testing.T) {

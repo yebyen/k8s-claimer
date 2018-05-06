@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/codegangsta/cli"
-	"github.com/deis/k8s-claimer/client"
+	"github.com/teamhephy/k8s-claimer/client"
 )
 
 const (

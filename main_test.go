@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/arschles/assert"
-	"github.com/deis/k8s-claimer/k8s"
+	"github.com/teamhephy/k8s-claimer/k8s"
 )
 
 type configureRoutesTestCase struct {
