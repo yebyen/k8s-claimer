@@ -7,9 +7,9 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/arm/containerservice"
 	"github.com/arschles/assert"
-	"github.com/deis/k8s-claimer/config"
-	"github.com/deis/k8s-claimer/leases"
-	"github.com/deis/k8s-claimer/testutil"
+	"github.com/teamhephy/k8s-claimer/config"
+	"github.com/teamhephy/k8s-claimer/leases"
+	"github.com/teamhephy/k8s-claimer/testutil"
 	"github.com/pborman/uuid"
 )
 

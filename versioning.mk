@@ -1,7 +1,7 @@
 MUTABLE_VERSION ?= canary
 VERSION := $(shell git describe --tags --exact-match 2>/dev/null || echo "git-$$(git rev-parse --short HEAD)")
 
-IMAGE_PREFIX ?= deis
+IMAGE_PREFIX ?= teamhephy
 IMAGE := ${DEV_REGISTRY}${IMAGE_PREFIX}/${SHORT_NAME}:${VERSION}
 MUTABLE_IMAGE := ${DEV_REGISTRY}${IMAGE_PREFIX}/${SHORT_NAME}:${MUTABLE_VERSION}
 

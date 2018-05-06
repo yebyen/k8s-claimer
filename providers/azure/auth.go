@@ -7,7 +7,7 @@ import (
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/adal"
 	"github.com/Azure/go-autorest/autorest/azure"
-	"github.com/deis/k8s-claimer/config"
+	"github.com/teamhephy/k8s-claimer/config"
 )
 
 const (

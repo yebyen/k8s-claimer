@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/arschles/assert"
-	"github.com/deis/k8s-claimer/testutil"
+	"github.com/teamhephy/k8s-claimer/testutil"
 )
 
 func TestGoogleAccountInfo(t *testing.T) {
@@ -19,6 +19,6 @@ func TestGoogleAccountInfo(t *testing.T) {
 	assert.NoErr(t, err)
 	assert.Equal(t, f.PrivateKeyID, "abc", "private key ID")
 	assert.Equal(t, f.PrivateKey, "def", "private key")
-	assert.Equal(t, f.ClientEmail, "aaron@deis.com", "client email")
-	assert.Equal(t, f.ClientID, "aaronschlesinger", "client ID")
+	assert.Equal(t, f.ClientEmail, "kingdon@teamhephy.com", "client email")
+	assert.Equal(t, f.ClientID, "kingdonbarrett", "client ID")
 }

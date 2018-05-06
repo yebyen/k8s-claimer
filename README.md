@@ -1,8 +1,8 @@
 # k8s-claimer
 
 [![Build Status](https://travis-ci.org/deis/k8s-claimer.svg?branch=master)](https://travis-ci.org/deis/k8s-claimer)
-[![Go Report Card](https://goreportcard.com/badge/github.com/deis/k8s-claimer)](https://goreportcard.com/report/github.com/deis/k8s-claimer)
-[![Docker Repository on Quay](https://quay.io/repository/deisci/k8s-claimer/status "Docker Repository on Quay")](https://quay.io/repository/deisci/k8s-claimer)
+[![Go Report Card](https://goreportcard.com/badge/github.com/teamhephy/k8s-claimer)](https://goreportcard.com/report/github.com/teamhephy/k8s-claimer)
+[![Docker Repository on Quay](https://quay.io/repository/hephyci/k8s-claimer/status "Docker Repository on Quay")](https://quay.io/repository/hephyci/k8s-claimer)
 
 CLI Downloads:
 
@@ -12,7 +12,7 @@ CLI Downloads:
 - [32 Bit Mac OS X](https://storage.googleapis.com/k8s-claimer/k8s-claimer-latest-darwin-386)
 
 `k8s-claimer` is a leasing server for a pool of Kubernetes clusters. It will be used as part of our
-[deis-workflow end-to-end test](https://github.com/deisthree/workflow-e2e) infrastructure.
+[deis-workflow end-to-end test](https://github.com/teamhephy/workflow-e2e) infrastructure.
 
 Note that this repository is a work in progress. The code herein is under heavy development,
 provides no guarantees and should not be expected to work in any capacity.

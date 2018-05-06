@@ -12,13 +12,13 @@ import (
 
 	"k8s.io/client-go/pkg/api/v1"
 
-	"github.com/deis/k8s-claimer/config"
-	"github.com/deis/k8s-claimer/htp"
-	"github.com/deis/k8s-claimer/leases"
+	"github.com/teamhephy/k8s-claimer/config"
+	"github.com/teamhephy/k8s-claimer/htp"
+	"github.com/teamhephy/k8s-claimer/leases"
 	"github.com/pborman/uuid"
 
-	"github.com/deis/k8s-claimer/api"
-	"github.com/deis/k8s-claimer/k8s"
+	"github.com/teamhephy/k8s-claimer/api"
+	"github.com/teamhephy/k8s-claimer/k8s"
 )
 
 // Lease will search for an available cluster on Azure which matches the parameters passed in on the request

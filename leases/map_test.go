@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/arschles/assert"
-	"github.com/deis/k8s-claimer/testutil"
+	"github.com/teamhephy/k8s-claimer/testutil"
 	"github.com/pborman/uuid"
 )
 

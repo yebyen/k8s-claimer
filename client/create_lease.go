@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/deis/k8s-claimer/api"
-	"github.com/deis/k8s-claimer/htp"
+	"github.com/teamhephy/k8s-claimer/api"
+	"github.com/teamhephy/k8s-claimer/htp"
 )
 
 // CreateLease creates a lease

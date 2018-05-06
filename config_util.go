@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/deis/k8s-claimer/config"
+	"github.com/teamhephy/k8s-claimer/config"
 	"github.com/kelseyhightower/envconfig"
 )
 

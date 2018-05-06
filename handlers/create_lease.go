@@ -5,12 +5,12 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/deis/k8s-claimer/api"
-	"github.com/deis/k8s-claimer/config"
-	"github.com/deis/k8s-claimer/htp"
-	"github.com/deis/k8s-claimer/k8s"
-	"github.com/deis/k8s-claimer/providers/azure"
-	"github.com/deis/k8s-claimer/providers/gke"
+	"github.com/teamhephy/k8s-claimer/api"
+	"github.com/teamhephy/k8s-claimer/config"
+	"github.com/teamhephy/k8s-claimer/htp"
+	"github.com/teamhephy/k8s-claimer/k8s"
+	"github.com/teamhephy/k8s-claimer/providers/azure"
+	"github.com/teamhephy/k8s-claimer/providers/gke"
 )
 
 // CreateLease creates the handler that responds to the POST /lease endpoint
