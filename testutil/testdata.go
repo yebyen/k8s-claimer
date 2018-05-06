@@ -17,5 +17,5 @@ func init() {
 
 // TestDataDir returns the fully qualified path to the testdata/ directory
 func TestDataDir() string {
-	return filepath.Join(goPath, "src", "github.com", "deis", "k8s-claimer", "testdata")
+	return filepath.Join(goPath, "src", "github.com", "teamhephy", "k8s-claimer", "testdata")
 }

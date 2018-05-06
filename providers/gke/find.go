@@ -9,7 +9,7 @@ import (
 
 	container "google.golang.org/api/container/v1"
 
-	"github.com/deis/k8s-claimer/leases"
+	"github.com/teamhephy/k8s-claimer/leases"
 )
 
 type errNoAvailableOrExpiredClustersFound struct{}

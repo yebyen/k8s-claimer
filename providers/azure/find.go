@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/arm/containerservice"
-	"github.com/deis/k8s-claimer/leases"
+	"github.com/teamhephy/k8s-claimer/leases"
 )
 
 type errNoAvailableOrExpiredClustersFound struct{}

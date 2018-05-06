@@ -5,7 +5,7 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/arm/containerservice"
 	"github.com/Azure/go-autorest/autorest/azure"
-	"github.com/deis/k8s-claimer/config"
+	"github.com/teamhephy/k8s-claimer/config"
 )
 
 // AzureClusterLister is a ClusterLister implementation that uses the Azure Go SDK to list clusters

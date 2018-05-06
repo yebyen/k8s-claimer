@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: k8s-claimer
-          image: quay.io/deisci/k8s-claimer:canary
+          image: quay.io/hephyci/k8s-claimer:canary
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
